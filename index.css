@@ -26,7 +26,7 @@ ul li a{
     text-decoration: none;
     color: black;
 }
-.name{
+.home{
     display: flex;
     width: 100%;
     margin: 5px 40px;
@@ -57,26 +57,57 @@ img{
     margin-top: -140px;
     /* height: 400px; */
 }
-.portfolio-title{
+.projects-title{
     text-align:center;
     margin: 10px 30px;
-    padding: 15px;
+    padding: 5px;
+    font-size: 30px;
 }
 .projects-content h4{
     text-align: center;
-    margin: 10px 30px;
-    padding: 10px;
+    margin: 5px 30px;
+    padding: 5px;
+    font-size: 25px;
 }
 .projects-cont{
     margin: 10px 30px;
+    padding: 5px;
+    font-size: 18px;
+}
+.container-low{
+    display: flex;
+    margin: 15px;
 }
 .about{
     text-align: center;
+    margin: 20px;
+    padding: 5px;
+    /* border: 2px  black; */
+    box-shadow: 0px 5px 5px 5px;
+    /* box-shadow:rgba(0, 0, 0, 0.25) 0px 25px 50px -12px; */
+
 }
-.education-head{
-    margin: 20px 30px;
+
+.about h3{
+    margin: 5px;
+    padding: 5px;
+    font-size: 30px;
+
 }
-.education-content{
-    display: flex;
-    justify-content: space-between;
+.about p{
+    font-size: 18px;
+    line-height: 1.3;
+}
+footer{
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+}
+.contacts-list ul{
+    list-style: none;
+    margin: 10px;
+
+}
+.contacts-list ul li{
+    padding: 5px;
 }
